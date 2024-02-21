@@ -8,3 +8,4 @@ spec:
     name: client
   calls:
     - name: "server2"
+    - name: server

@@ -14,3 +14,4 @@ spec:
           table: public.example
           operations:
             - SELECT
+    - name: database
