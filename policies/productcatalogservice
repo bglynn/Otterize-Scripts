@@ -1,10 +1,13 @@
 apiVersion: k8s.otterize.com/v1alpha3
 kind: ClientIntents
 metadata:
-  name: client-intents-for-client
-  namespace: otterize-tutorial-npol
+  name: client-intents-for-checkoutservice
+  namespace: otterize-ecom-demo
 spec:
   service:
-      name: checkoutservice
-    calls:
-      
+    name: checkoutservice
+  calls:
+    - name: "svc:kubernetes.default"
+    - name: "cartservice"
+    - name: "currencyservice"
+    - name: "shippingservice"
