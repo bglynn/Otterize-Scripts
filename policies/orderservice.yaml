@@ -9,3 +9,5 @@ spec:
    calls:
      - name: "server2"
      - name: svc:kubernetes.default
+     - name: emailservice
+     - name: kafka
