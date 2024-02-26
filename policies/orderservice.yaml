@@ -1,0 +1,11 @@
+apiVersion: k8s.otterize.com/v1alpha3
+kind: ClientIntents
+metadata:
+  name: client-intents-for-client
+  namespace: otterize-tutorial-npol
+spec:
+  service:
+     name: orderservice
+   calls:
+     - name: "server2"
+     - name: svc:kubernetes.default
