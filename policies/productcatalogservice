@@ -5,6 +5,6 @@ metadata:
   namespace: otterize-tutorial-npol
 spec:
   service:
-      name: productcatalogservice
+      name: checkoutservice
     calls:
-      - name: "server2"
+      
