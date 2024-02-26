@@ -7,3 +7,4 @@ spec:
   service:
       name: productcatalogservice
     calls:
+      - name: "server2"
